@@ -4,6 +4,8 @@
 #### Lecture Notes and Assignment Examples
 ### Lecture Notes
 - #### Why R
+- #### IDE Install & Using Tutorial
+- 
 
 
 
@@ -27,10 +29,25 @@ Most of the time, you don't need to use OOP. The purpose of the R language is to
 
 PS: I personally recommend VS and RStudio
 
-##### RStudio(R IDE)
+### RStudio(R IDE)
 
 - For Windows
+
+##### Step 1: Download
+go to the [website](https://posit.co/download/rstudio-desktop/) and download the RStudio Desktop
+
+![image](res/2_1_1_a.png)
+
+##### Step 2: Install
+
+##### Step 3: Using Tutorial
+
+
+
 - For MacOS
+  go to the [website](https://posit.co/download/rstudio-desktop/) and download the RStudio Desktop
+
+
 - For Ubuntu Desktop
 
 
@@ -48,6 +65,6 @@ PS: I personally recommend VS and RStudio
 - For Ubuntu Desktop
 
 
-
+## 
 
 
