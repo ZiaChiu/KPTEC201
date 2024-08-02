@@ -1,6 +1,6 @@
 # KPTEC201
 
-#### Subject Name: Data Visualisation in R
+#### Subject Name: Data Visualization in R
 
 #### Lecture Notes and Assignment Examples
 
@@ -38,15 +38,11 @@ PS: I personally recommend VS and RStudio
 
 -   For Windows
 
-##### Step 1: Download
+##### Step 1: Install & Using Tutorial
 
-go to the [website](https://posit.co/download/rstudio-desktop/) and download the RStudio Desktop
+[![Watch the video]()](https://youtu.be/vt5fpE0bzSY)
 
-![image](res/2_1_1_a.png)
-
-##### Step 2: Install
-
-##### Step 3: Using Tutorial
+##### Step 2:
 
 -   For MacOS go to the [website](https://posit.co/download/rstudio-desktop/) and download the RStudio Desktop
 
