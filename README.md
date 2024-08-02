@@ -40,7 +40,7 @@ PS: I personally recommend VS and RStudio
 
 ##### Step 1: Install & Using Tutorial
 
-[![Watch the video](https://img.youtube.com/vi/vt5fpE0bzSY/maxresdefault.jpg)](https://youtu.be/vt5fpE0bzSY)
+[![Watch the video](https://img.youtube.com/vi/NFEDEXWomI4?si=_8B-HdauU92oJpq9/maxresdefault.jpg){width="442"}](https://youtu.be/NFEDEXWomI4?si=_8B-HdauU92oJpq9)
 
 ##### Step 2:
 
