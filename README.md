@@ -1,13 +1,20 @@
 # KPTEC201
 
 #### Subject Name: Data Visualisation in R
+
 #### Lecture Notes and Assignment Examples
+
 ### Lecture Notes
-- #### Why R
-- #### IDE Install & Using Tutorial
-- 
 
+-   
 
+    #### Why R
+
+-   
+
+    #### IDE Install & Using Tutorial
+
+-   
 
 # Lecture Notes
 
@@ -16,14 +23,12 @@ All notes are summarized according to the order of the original contents of the 
 ## Introduction
 
 #### What is and Why R?
-R is designed for data analysis and statistical computing.
-Widely used for conducting statistics and specialized data analysis tasks.
 
-Some classmates who have studied python and java will want to try to find the code logic corresponding to python or java in R's documentation.
-But when I tried to use R to deal with some accounting problems, I found that the programming process of R tended more to the process-oriented programming of C. 
+R is designed for data analysis and statistical computing. Widely used for conducting statistics and specialized data analysis tasks.
 
-Once the logic of the code starts to become complex, you need to use concepts such as classes and functions similar to Python to achieve code reuse (that is, object-oriented programming).
-Most of the time, you don't need to use OOP. The purpose of the R language is to process data, not to develop a program that can be run.
+Some classmates who have studied python and java will want to try to find the code logic corresponding to python or java in R's documentation. But when I tried to use R to deal with some accounting problems, I found that the programming process of R tended more to the process-oriented programming of C.
+
+Once the logic of the code starts to become complex, you need to use concepts such as classes and functions similar to Python to achieve code reuse (that is, object-oriented programming). Most of the time, you don't need to use OOP. The purpose of the R language is to process data, not to develop a program that can be run.
 
 ## IDE Install & Using Tutorial
 
@@ -31,9 +36,10 @@ PS: I personally recommend VS and RStudio
 
 ### RStudio(R IDE)
 
-- For Windows
+-   For Windows
 
 ##### Step 1: Download
+
 go to the [website](https://posit.co/download/rstudio-desktop/) and download the RStudio Desktop
 
 ![image](res/2_1_1_a.png)
@@ -42,29 +48,20 @@ go to the [website](https://posit.co/download/rstudio-desktop/) and download the
 
 ##### Step 3: Using Tutorial
 
+-   For MacOS go to the [website](https://posit.co/download/rstudio-desktop/) and download the RStudio Desktop
 
-
-- For MacOS
-  go to the [website](https://posit.co/download/rstudio-desktop/) and download the RStudio Desktop
-
-
-- For Ubuntu Desktop
-
-
+-   For Ubuntu Desktop
 
 ##### R Tools for Visual Studio Visual Studio
 
-- For Windows
-- For MacOS
-- For Ubuntu Desktop
+-   For Windows
+-   For MacOS
+-   For Ubuntu Desktop
 
 ##### Visual Studio Code
 
-- For Windows
-- For MacOS
-- For Ubuntu Desktop
-
+-   For Windows
+-   For MacOS
+-   For Ubuntu Desktop
 
 ## 
-
-
