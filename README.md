@@ -6,15 +6,11 @@
 
 ### Lecture Notes
 
--   
+-   Why R
 
-    #### Why R
+-   IDE Install & Using Tutorial
 
--   
 
-    #### IDE Install & Using Tutorial
-
--   
 
 # Lecture Notes
 
@@ -32,25 +28,36 @@ Once the logic of the code starts to become complex, you need to use concepts su
 
 ## IDE Install & Using Tutorial
 
-PS: I personally recommend VS and RStudio
+PS: I personally recommend Visual Studio and RStudio
 
 ### RStudio(R IDE)
 
 -   For Windows
 
-##### Step 1: Install & Using Tutorial
+[R 4.4.1 for windows](https://cran.rstudio.com/bin/windows/base/R-4.4.1-win.exe)
 
-[![Watch the video](https://img.youtube.com/vi/NFEDEXWomI4?si=_8B-HdauU92oJpq9/maxresdefault.jpg){width="442"}](https://youtu.be/NFEDEXWomI4?si=_8B-HdauU92oJpq9)
+[RStudio 4.2 for windows](https://download1.rstudio.org/electron/windows/RStudio-2024.04.2-764.exe)
 
-##### Step 2:
+[![How to Install R and RStudio on Windows 10/11 [ 2024 Update ] R Programming Tutorial –YT](https://img.youtube.com/vi/9SzKJH93t5o/maxresdefault.jpg){width="442"}](https://www.youtube.com/watch?v=9SzKJH93t5o)
 
--   For MacOS go to the [website](https://posit.co/download/rstudio-desktop/) and download the RStudio Desktop
+-   For MacOS
+
+[R 4.4.1 for MacOS Apple Chips](https://cran.rstudio.com/bin/macosx/big-sur-arm64/base/R-4.4.1-arm64.pkg)
+
+[R 4.4.1 for MacOS Intel](https://cran.rstudio.com/bin/macosx/big-sur-x86_64/base/R-4.4.1-x86_64.pkg)
+
+[![How to Install R and RStudio on Mac / MacOS (2024) – YT](https://img.youtube.com/vi/I5WIMX4LK8M/maxresdefault.jpg){width="442"}](https://www.youtube.com/watch?v=I5WIMX4LK8M)
 
 -   For Ubuntu Desktop
 
-##### R Tools for Visual Studio Visual Studio
+[![How to install RStudio and R on Ubuntu – YT](https://img.youtube.com/vi/bn8NvoSyLDA/hqdefault.jpg)](https://www.youtube.com/watch?v=bn8NvoSyLDA)
+
+##### R Tools for Visual Studio
 
 -   For Windows
+
+[![R Tools for Visual Studio Public Preview – YT](https://img.youtube.com/vi/KPS0ytrt9SA/hqdefault.jpg)](https://www.youtube.com/watch?v=KPS0ytrt9SA)
+
 -   For MacOS
 -   For Ubuntu Desktop
 
