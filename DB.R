@@ -241,6 +241,12 @@ chose_db <- function(ans = "db") {
 # Ask the user which database they would like to use
 question <- readline(prompt = "Which database would you like to use (db or dn) [PS: default is db]? ")
 
+# Check if the user input is valid
+# %in% means "not in"
+if (question %in% c("db", "dn")) {
+  question <- "db"
+}
+
 # Assign the value of the question to the variable 'ans'
 # The same value but different memory location.
 # Ensure that the value of question is not tainted by future memory modifications.
@@ -250,13 +256,3 @@ print(paste("ans",as.character(ans)))
 
 # Choose and load the selected database
 d <- chose_db(ans)
-
-get_db <- function() {
-  return(d)
-}
-
-get_ans <- function() {
-  return(ans)
-}
-
-
