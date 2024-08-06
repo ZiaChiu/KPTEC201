@@ -242,8 +242,8 @@ chose_db <- function(ans = "db") {
 question <- readline(prompt = "Which database would you like to use (db or dn) [PS: default is db]? ")
 
 # Check if the user input is valid
-# %in% means "not in"
-if (question %in% c("db", "dn")) {
+# %in% means "in" and !(%in%) means "not in"
+if (!(question %in% c("db", "dn"))) {
   question <- "db"
 }
 
@@ -256,3 +256,5 @@ print(paste("ans",as.character(ans)))
 
 # Choose and load the selected database
 d <- chose_db(ans)
+
+
