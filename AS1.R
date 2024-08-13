@@ -133,6 +133,8 @@ frequency_passenger_year <- function(yrs){
 }
 
 
+
+
 #####################
 # For dn dataset part
 #####################
@@ -184,4 +186,45 @@ display_statement_daily_plot <- function(){
     ylab("Total Spending in CNY") +
     ggtitle("Total Daily Spending in CNY for the Year")
   save_plot(plot_days, "plot_days.png")
+}
+
+get_monthly_spending_frequency <- function() {
+  total_monthly_spending <- get_summarize_month_i_year()
+  
+  # Calculate the frequency of each total spending value
+  monthly_freq <- total_monthly_spending %>%
+    group_by(total_spending) %>%
+    summarize(frequency = n())
+  
+  return(monthly_freq)
+}
+
+get_daily_spending_frequency <- function() {
+  total_daily_spending <- get_spend_daily_i_year()
+  
+  # Calculate the frequency of each total spending value
+  daily_freq <- total_daily_spending %>%
+    group_by(total_spending) %>%
+    summarize(frequency = n())
+  
+  return(daily_freq)
+}
+
+display_monthly_spending_frequency_plot <- function() {
+  # Get the frequency data
+  monthly_freq_data <- get_monthly_spending_frequency()
+  
+  # Plot the frequency data
+  plot_monthly_freq <- ggplot(monthly_freq_data, aes(x = total_spending, y = frequency)) +
+    geom_bar(stat = "identity", fill = "blue") +
+    xlab("Total Spending in CNY") +
+    ylab("Frequency") +
+    ggtitle("Frequency of Monthly Spending in CNY") +
+    theme_minimal()
+  
+  # Print the plot
+  print(plot_monthly_freq)
+  
+  # Save the plot as an image
+  save_plot(plot_monthly_freq, "plot_monthly_freq.png")
 }
