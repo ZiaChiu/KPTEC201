@@ -1,4 +1,5 @@
 
+install.packages("languageserver")
 
 ######################
 

@@ -56,15 +56,33 @@ PS: I personally recommend Visual Studio and RStudio
 
 -   For Windows
 
-[![R Tools for Visual Studio Public Preview – YT](https://img.youtube.com/vi/KPS0ytrt9SA/hqdefault.jpg)](https://www.youtube.com/watch?v=KPS0ytrt9SA)
+[![R Tools for Visual Studio Public Preview – YT](https://img.youtube.com/vi/KPS0ytrt9SA/maxresdefault.jpg)](https://www.youtube.com/watch?v=KPS0ytrt9SA)
 
--   For MacOS
--   For Ubuntu Desktop
 
 ##### Visual Studio Code
 
+
 -   For Windows
+
+[![How Install Visual Studio Code on Windows 11 (VS Code) (2024)](https://i3.ytimg.com/vi/cu_ykIfBprI/maxresdefault.jpg)](https://www.youtube.com/watch?v=cu_ykIfBprI)
+
 -   For MacOS
+
+[![How to Install Visual Studio Code on Mac | Install VSCode on macOS (2024)](https://i3.ytimg.com/vi/w0xBQHKjoGo/maxresdefault.jpg)](https://www.youtube.com/watch?v=w0xBQHKjoGo)
+
+
 -   For Ubuntu Desktop
 
-## 
+[![How to Install and Use Visual Studio Code on Ubuntu 22.04 LTS Linux (VS Code)](https://i3.ytimg.com/vi/ChwsFldra-o/maxresdefault.jpg)](https://www.youtube.com/watch?v=ChwsFldra-o)
+
+
+[[R language setting from Micosoft]](https://code.visualstudio.com/docs/languages/r)
+
+
+
+
+## Variable
+
+### set a new var
+
+
