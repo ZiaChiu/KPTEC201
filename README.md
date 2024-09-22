@@ -88,6 +88,24 @@ PS: I personally recommend Visual Studio and RStudio
 - character(string)
 ## R logic: When writing code, always pay attention to whether there is """ at the end of the string. If not, all code after the string will become part of the string (regardless of whether you have a newline or not.
     name <- "Zia"
+### method(print())
+- R logic: Similar to python, R's print is only responsible for printing the code results in a single line.
+    print(name)
+    - Zia
+### method(cat())
+- R logic: R’s cat is responsible for printing code results in multiple lines.
+    
+        cat(”Hi,
+            Welcome to the R code World.
+        
+            Regards,
+            Zia”)
+            - 
+            Hi,
+            Welcome to the R code World.
+        
+            Regards,
+            Zia
 
 - numberic
 ## Numeric includes all numbers, which can be integer(28), float(28.0), or double(28.00).
@@ -123,6 +141,53 @@ PS: I personally recommend Visual Studio and RStudio
 ### check data type 
     class()
 
+## math
+
+- R logic: you can just input the math on the R console 
+
+### + \ -\ * \ /
+
+- 1+2
+
+- 2*2
+
+- 2/2
+
+- 2-2
+
+### method
+
+-  maximum value 
+
+    max(1,4,5,6,8)
+    - 8
+-  minimum value
+    
+    min(1,5,7,3,0)
+    - 0
+
+- square root
+    
+    sqrt(4)
+    - 2
+
+- absolute value
+
+    abs(-4)
+    - 4
+
+#### Value trade-off
+
+- ### Trade up
+If there is a float or double value greater than 0, one is automatically added to the integer bit.
+    ceiling(1.4)
+    - 2
+
+- ### Trade down
+If there is a float or double value greater than 0, the decimal places are automatically omitted and the original integer digits are retained.
+    floor(1.4)
+    - 1
 
 
+    
 
