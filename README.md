@@ -82,7 +82,46 @@ PS: I personally recommend Visual Studio and RStudio
 
 
 ## Variable
-
+- R logic: there is no any constant variable in R language.
 ### set a new var
+
+- character(string)
+## R logic: When writing code, always pay attention to whether there is """ at the end of the string. If not, all code after the string will become part of the string (regardless of whether you have a newline or not.
+    name <- "Zia"
+
+- numberic
+## Numeric includes all numbers, which can be integer(28), float(28.0), or double(28.00).
+## R logic: R automatically converts between these two classes when needed for mathematical purposes.
+---
+    age <- 28.0
+---
+    age <- 28
+---
+    age <- 28.00
+
+- integer 
+## A variable that exists specifically to record integers
+---
+
+    ### time now
+    second <- 15
+    minutes <- 18
+    hours <- 15
+- complex
+## Only enabled when using imaginary numbers
+---
+
+    a <- i
+
+- logical(Boolean)
+## True or Fale
+---
+
+    graduated <- False 
+
+### check data type 
+    class()
+
+
 
 
