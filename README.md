@@ -101,12 +101,13 @@ PS: I personally recommend Visual Studio and RStudio
 
 - integer 
 ## A variable that exists specifically to record integers
+- R logic: there are completely different between the integer of numeric and the integer data type.
 ---
 
     ### time now
-    second <- 15
-    minutes <- 18
-    hours <- 15
+    second <- 15L
+    minutes <- 18L
+    hours <- 15L
 - complex
 ## Only enabled when using imaginary numbers
 ---
