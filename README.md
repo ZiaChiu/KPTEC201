@@ -138,6 +138,8 @@ PS: I personally recommend Visual Studio and RStudio
 
     graduated <- False 
 
+
+
 ### check data type 
     class()
 
@@ -155,39 +157,98 @@ PS: I personally recommend Visual Studio and RStudio
 
 - 2-2
 
+- 2 %% 2
+
+- 2 %/% 2
+
 ### method
 
 -  maximum value 
 
-    max(1,4,5,6,8)
-    - 8
+        max(1,4,5,6,8)
+        - 8
 -  minimum value
     
-    min(1,5,7,3,0)
-    - 0
+        min(1,5,7,3,0)
+        - 0
 
 - square root
     
-    sqrt(4)
-    - 2
+        sqrt(4)
+        - 2
 
 - absolute value
 
-    abs(-4)
-    - 4
+        abs(-4)
+        - 4
 
 #### Value trade-off
 
 - ### Trade up
 If there is a float or double value greater than 0, one is automatically added to the integer bit.
+    
     ceiling(1.4)
     - 2
 
 - ### Trade down
 If there is a float or double value greater than 0, the decimal places are automatically omitted and the original integer digits are retained.
+        
     floor(1.4)
     - 1
 
+- ### <\>\==\!=
 
+- a < b
     
+        1 < 2
+        - True
+        2 < 1
+        - False
+
+- a <= b
+
+    1 <= 2
+    # True
+    2 <= 2
+    # True
+    3 <= 2
+    # False
+    ```
+
+- a >= b
+
+        3 >= 2
+        # True
+        2 >= 2
+        # True
+        1 >= 2
+        # False
+
+
+### a > b 
+    3 > 2
+    # True
+    2 > 3
+    # False
+
+
+### a == b
+    2 == 2
+    # True
+    1 == 2
+    # False
+    
+
+### a != b
+
+    1 != 2
+    # True
+    2 != 2
+    # False
+
+### logical symbols &\&&\|\||\!
+
+
+
+
 
